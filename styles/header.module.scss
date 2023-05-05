@@ -1,0 +1,99 @@
+.header {
+	position: relative;
+	overflow: hidden;
+	&::before {
+		content: "";
+		width: 73em;
+		height: 70em;
+		position: absolute;
+		background: rgba(255, 145, 0, 0.5);
+		border-radius: 50%;
+		z-index: -1;
+		top: -450px;
+		left: 50%;
+	}
+}
+
+.profileBox {
+	display: flex;
+	justify-content: space-between;
+}
+
+.titleBlock {
+	max-width: 600px;
+
+	.preTitle {
+		margin-top: 4em;
+		line-height: 1;
+	}
+
+	.nameBig {
+		// margin-top: 30px;
+		font-size: 6em;
+		font-weight: 900;
+		line-height: 1;
+	}
+
+	.postTitle {
+		color: #ff9301;
+		font-size: 2em;
+		font-weight: 900;
+	}
+}
+
+.menu {
+	display: flex;
+	margin-top: 5em;
+	margin-bottom: 2em;
+
+	.link {
+		position: relative;
+		padding: 1em 0.5em;
+		text-align: center;
+
+		&::before {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 0;
+			height: 3px;
+			background-color: #ff9301;
+			transition: 0.2s;
+		}
+
+		&:hover::before {
+			width: 100%;
+		}
+	}
+}
+
+.avatar {
+	margin-top: 1em;
+}
+
+@media screen and (max-width: 1020px) {
+	.header::before {
+		display: none;
+	}
+	.avatar {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.menu {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr 1fr ;
+		gap: 0.5em 0.5em;
+		margin-top: 2em;
+		color: #fff;
+
+	}
+
+	.link {
+		background: #ff9301;
+		display: block;
+	}
+}

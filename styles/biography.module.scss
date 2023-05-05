@@ -1,0 +1,86 @@
+.biography {}
+
+.biographyInner {
+	display: flex;
+}
+
+.imgBlock {
+	text-align: center;
+	z-index: 5;
+
+	.imageWrapper {
+		position: relative;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		overflow: hidden;
+		width: 15em;
+		height: 15em;
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			background: #ff9301;
+			z-index: -2;
+
+			.avatar {}
+		}
+	}
+
+	.name {
+		margin-top: 0.5em;
+		font-size: 2em;
+	}
+
+	.postTitle {
+		color: #ff9301;
+	}
+}
+
+.info {
+	flex: 2;
+	margin-left: 5em;
+
+	.title {}
+
+	.infoDescription {
+		margin-top: 1em;
+	}
+}
+
+.borderLine {
+	background: url("../public/media/border-dark.png") repeat-x;
+	background-size: 15%;
+	height: 1.5em;
+	max-width: 1140px;
+	margin-top: 5em;
+}
+
+@media screen and (max-width: 960px) {
+	.avatar {
+		width: 16em;
+		height: 16em;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	.biographyInner {
+		display: block;
+	}
+
+	.imgBlock {
+		margin-top: 1em;
+	}
+
+	.info {
+		margin: 0;
+	}
+
+	.imageWrapper {
+		z-index: 5;
+		margin: 0 auto;
+	}
+}

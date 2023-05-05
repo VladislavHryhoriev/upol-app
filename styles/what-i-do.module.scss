@@ -1,0 +1,51 @@
+.whatIDo {
+}
+
+.cards {
+	margin-top: 1em;
+	display: flex;
+	gap: 1em;
+}
+
+.card {
+	position: relative;
+	padding: 2rem;
+	padding-top: 1rem;
+	border-radius: 1em;
+	overflow: hidden;
+	background: #fff;
+	z-index: 5;
+
+	.title {
+		margin-top: 3em;
+	}
+
+	.description {
+		margin-top: 1em;
+	}
+}
+
+.icon {
+	display: block;
+	width: 4.5em;
+	height: 4.5em;
+}
+
+.svgWrapper {
+	&::before {
+		content: "";
+		position: absolute;
+		left: -2em;
+		top: -5em;
+		padding: 6em;
+		border-radius: 50%;
+		background: #ff9301;
+		z-index: -5;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.cards {
+		flex-direction: column;
+	}
+}
