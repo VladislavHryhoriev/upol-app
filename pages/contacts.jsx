@@ -1,7 +1,7 @@
 import Feedback from "@/components/contacts/feedback";
 import Info from "@/components/contacts/info";
 import Map from "@/components/contacts/map";
-import s from "@/styles/contacts.module.scss";
+import s from "@/scss/pages/contacts.module.scss";
 
 export default function Contacts({ data }) {
 	return (
@@ -19,8 +19,8 @@ export default function Contacts({ data }) {
 };
 
 export async function getStaticProps() {
-	const res = await fetch("http://localhost:3000/api/contacts");
-	const data = await res.json();
+	const res = await fetch("https://6456240f5f9a4f23613bb1fe.mockapi.io/mock-data");
+	const data = await res.json().then(data => data[0].contactsData);
 
 	return {
 		props: {

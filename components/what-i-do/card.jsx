@@ -1,4 +1,4 @@
-import s from "@/styles/what-i-do.module.scss";
+import s from "@/scss/pages/what-i-do.module.scss";
 import Image from "next/image";
 
 const Card = ({ icon, title, description }) => {

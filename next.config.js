@@ -2,14 +2,14 @@
 const nextConfig = {
 	reactStrictMode: true,
 	images: {
-		domains: ['dummyimage.com']
+		domains: ['dummyimage.com'],
 	},
 	async redirects() {
 		return [
 			{
 				source: '/',
 				destination: '/biography',
-				permanent: true,
+				permanent: false,
 			},
 		]
 	},
