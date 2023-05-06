@@ -1,3 +1,5 @@
+@use '../variables';
+
 .whatIDo {
 }
 
@@ -13,7 +15,7 @@
 	padding-top: 1rem;
 	border-radius: 1em;
 	overflow: hidden;
-	background: #fff;
+	background: variables.$color-card-bg;
 	z-index: 5;
 
 	.title {
@@ -39,7 +41,7 @@
 		top: -5em;
 		padding: 6em;
 		border-radius: 50%;
-		background: #ff9301;
+		background: variables.$color-bg-secondary;
 		z-index: -5;
 	}
 }

@@ -1,3 +1,4 @@
+@use '../variables';
 .experience {
 }
 
@@ -10,6 +11,7 @@
 	margin-top: 1em;
 	padding: 2em;
 	border-radius: 1em;
+	background: variables.$color-card-bg;
 
 	.time {
 		flex: 1;
@@ -22,11 +24,11 @@
 			max-width: max-content;
 			border-radius: 0.25em;
 			font-size: 0.9em;
-			background: #ff9301;
-			color: #fff;
+			background: variables.$color-bg-secondary;
+			color: variables.$color-font-primary;
 
 			&.dark {
-				background: #555555;
+				background: variables.$color-input-bg;
 			}
 		}
 	}
@@ -35,7 +37,7 @@
 		flex: 3;
 		padding: 1em;
 		padding-left: 2em;
-		border-left: 1px solid #eeeeee;
+		border-left: 1px solid variables.$color-border-line;
 
 		.title {
 		}

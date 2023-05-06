@@ -1,4 +1,4 @@
-import s from '@/styles/header.module.scss';
+import s from '@/scss/pages/header.module.scss';
 import Link from 'next/link';
 
 const Menu = () => {

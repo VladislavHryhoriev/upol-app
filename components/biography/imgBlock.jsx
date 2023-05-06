@@ -1,4 +1,4 @@
-import s from "@/styles/biography.module.scss";
+import s from "@/scss/pages/biography.module.scss";
 import Image from 'next/image';
 
 const ImgBlock = ({ avatarURL, username, position }) => {

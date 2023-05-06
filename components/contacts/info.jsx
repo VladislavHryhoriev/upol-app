@@ -1,4 +1,4 @@
-import s from "@/styles/contacts.module.scss";
+import s from "@/scss/pages/contacts.module.scss";
 import Address from "./address";
 
 const Info = ({ title, description, links }) => {

@@ -1,4 +1,4 @@
-import s from "@/styles/awards.module.scss";
+import s from "@/scss/pages/awards.module.scss";
 import Image from "next/image";
 
 const Card = ({ icon, title }) => {

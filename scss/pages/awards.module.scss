@@ -1,3 +1,6 @@
+@use '../variables';
+@use '../mixins';
+
 .awards {
 }
 
@@ -13,12 +16,14 @@
 	padding: 2em;
 	text-align: center;
 	border-radius: 1.25em;
-	background: #fff;
+	background: variables.$color-card-bg;
 }
 
 .icon {
+	@include mixins.icon-color;
 	width: 3em;
 	height: 3em;
+
 }
 
 .title {
