@@ -1,4 +1,4 @@
-import s from '@/styles/header.module.scss';
+import s from '@/scss/pages/header.module.scss';
 import Image from 'next/image';
 import Menu from './menu';
 import TitleBlock from './titleBlock';
@@ -19,8 +19,8 @@ const Header = () => {
 						className={s.avatar}
 						width={400}
 						height={400}
-						priority
 						alt='avatar'
+						priority
 					/>
 				</div>
 			</div>

@@ -1,4 +1,4 @@
-import s from "@/styles/biography.module.scss";
+import s from "@/scss/pages/biography.module.scss";
 
 const Info = ({ text }) => {
 	return (

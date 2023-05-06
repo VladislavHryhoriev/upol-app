@@ -1,5 +1,5 @@
 import Card from "@/components/experience/card";
-import s from "@/styles/experience.module.scss";
+import s from "@/scss/pages/experience.module.scss";
 
 export default function Experience({ data }) {
 	return (
@@ -17,8 +17,8 @@ export default function Experience({ data }) {
 };
 
 export async function getStaticProps() {
-	const res = await fetch("http://localhost:3000/api/experience");
-	const data = await res.json();
+	const res = await fetch("https://6456240f5f9a4f23613bb1fe.mockapi.io/mock-data");
+	const data = await res.json().then(data => data[0].experienceData);
 
 	return {
 		props: {

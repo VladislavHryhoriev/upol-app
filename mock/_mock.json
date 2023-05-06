@@ -1,0 +1,137 @@
+{
+	"biographyData": {
+		"avatarURL": "/media/avatar.svg",
+		"username": "Alex Smith",
+		"position": "Full-Stack Developer",
+		"text": [
+			"I'm a Freelancer Front-end Developer with over 3 years of experience. I'm from San Francisco. I code and create web elements for amazing people around the world. I like work with new people. New people new Experiences.",
+			"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+			"Consectetur adipisicing elit, lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor."
+		]
+	},
+	"whatIDoData": [
+		{
+			"id": 1,
+			"icon": "pencil-alt-solid.svg",
+			"title": "Web Design",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam dicta est in molestiae necessitatibus nesciunt odit perspiciatis rerum voluptatibus!"
+		},
+		{
+			"id": 2,
+			"icon": "desktop-solid.svg",
+			"title": "Web Development",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam dicta est in molestiae necessitatibus nesciunt odit perspiciatis rerum voluptatibus!"
+		},
+		{
+			"id": 3,
+			"icon": "bullseye-solid.svg",
+			"title": "Seo Marketing",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam dicta est in molestiae necessitatibus nesciunt odit perspiciatis rerum voluptatibus!"
+		}
+	],
+	"awardsData": [
+		{
+			"id": 1,
+			"icon": "trophy-solid.svg",
+			"title": "Creative Designer"
+		},
+		{
+			"id": 2,
+			"icon": "trophy-solid.svg",
+			"title": "Yearly Best Performer"
+		},
+		{
+			"id": 3,
+			"icon": "trophy-solid.svg",
+			"title": "Best Learner Award"
+		}
+	],
+	"experienceData": [
+		{
+			"id": 1,
+			"date": "Feb 2021 - Present",
+			"schedule": "Full Time",
+			"title": "Google LLC - Sr. Front-end Engineer",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae eius et facilis illum impedit maxime nisi perspiciatis quae sint suscipit?"
+		},
+		{
+			"id": 2,
+			"date": "Mar 2020 - Present",
+			"schedule": "Part Time",
+			"title": "Ridian It - Visual Designer",
+			"description": "Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor."
+		},
+		{
+			"id": 3,
+			"date": "Jan 2019 - Present",
+			"schedule": "Full Time",
+			"title": "IB Themes - Animation Artist",
+			"description": "Consectetur adipisicing elit, lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor."
+		}
+	],
+	"myPortfolioData": [
+		{
+			"id": 1,
+			"imageURL": "https://dummyimage.com/640x360/f7f7ff/0b0b15",
+			"title": "Lorem Ipsum",
+			"date": "07/13/2017",
+			"description": "Id, porro ad. Fugiat totam nobis reiciendis nostrum blanditiis perferendis nisi dolore officia reprehenderit aspernatur, eligendi voluptas exercitationem mollitia ad sint expedita facilis optio quae dignissimos a iure possimus quam!"
+		},
+		{
+			"id": 2,
+			"imageURL": "https://dummyimage.com/640x360/f7f7ff/0b0b15",
+			"title": "Lorem Ipsum",
+			"date": "07/13/2017",
+			"description": "Id, porro ad. Fugiat totam nobis reiciendis nostrum blanditiis perferendis nisi dolore officia reprehenderit aspernatur, eligendi voluptas exercitationem mollitia ad sint expedita facilis optio quae dignissimos a iure possimus quam!"
+		},
+		{
+			"id": 3,
+			"imageURL": "https://dummyimage.com/640x360/f7f7ff/0b0b15",
+			"title": "Lorem Ipsum",
+			"date": "07/13/2017",
+			"description": "Id, porro ad. Fugiat totam nobis reiciendis nostrum blanditiis perferendis nisi dolore officia reprehenderit aspernatur, eligendi voluptas exercitationem mollitia ad sint expedita facilis optio quae dignissimos a iure possimus quam!"
+		},
+		{
+			"id": 4,
+			"imageURL": "https://dummyimage.com/640x360/f7f7ff/0b0b15",
+			"title": "Lorem Ipsum",
+			"date": "07/13/2017",
+			"description": "Id, porro ad. Fugiat totam nobis reiciendis nostrum blanditiis perferendis nisi dolore officia reprehenderit aspernatur, eligendi voluptas exercitationem mollitia ad sint expedita facilis optio quae dignissimos a iure possimus quam!"
+		},
+		{
+			"id": 5,
+			"imageURL": "https://dummyimage.com/640x360/f7f7ff/0b0b15",
+			"title": "Lorem Ipsum",
+			"date": "07/13/2017",
+			"description": "Id, porro ad. Fugiat totam nobis reiciendis nostrum blanditiis perferendis nisi dolore officia reprehenderit aspernatur, eligendi voluptas exercitationem mollitia ad sint expedita facilis optio quae dignissimos a iure possimus quam!"
+		},
+		{
+			"id": 6,
+			"imageURL": "https://dummyimage.com/640x360/f7f7ff/0b0b15",
+			"title": "Lorem Ipsum",
+			"date": "07/13/2017",
+			"description": "Id, porro ad. Fugiat totam nobis reiciendis nostrum blanditiis perferendis nisi dolore officia reprehenderit aspernatur, eligendi voluptas exercitationem mollitia ad sint expedita facilis optio quae dignissimos a iure possimus quam!"
+		}
+	],
+	"contactsData": {
+		"title": "Whats your story? Get in touch",
+		"description": "Always available for freelancing if the right project comes along, Feel free to contact me.",
+		"links": [
+			{
+				"id": 1,
+				"icon": "map-marker-alt-solid.svg",
+				"address": "Champ de Mars, 5 Av. Anatole France, 75007 Paris, Francie"
+			},
+			{
+				"id": 2,
+				"icon": "envelope-regular.svg",
+				"address": "support@domain.com"
+			},
+			{
+				"id": 3,
+				"icon": "mobile-alt-solid.svg",
+				"address": "555-2368"
+			}
+		]
+	}
+}

@@ -1,4 +1,4 @@
-import s from "@/styles/my-portfolio.module.scss";
+import s from "@/scss/pages/my-portfolio.module.scss";
 import Image from "next/image";
 
 const Card = ({ imageURL, title, date, description }) => {

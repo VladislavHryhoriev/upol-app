@@ -1,4 +1,4 @@
-import s from "@/styles/my-portfolio.module.scss";
+import s from "@/scss/pages/my-portfolio.module.scss";
 import Card from "../components/my-portfolio/card";
 
 export default function MyPorftfolio({ data }) {
@@ -17,8 +17,8 @@ export default function MyPorftfolio({ data }) {
 };
 
 export async function getStaticProps() {
-	const res = await fetch("http://localhost:3000/api/my-portfolio");
-	const data = await res.json();
+	const res = await fetch("https://6456240f5f9a4f23613bb1fe.mockapi.io/mock-data");
+	const data = await res.json().then(data => data[0].myPortfolioData);
 
 	return {
 		props: {

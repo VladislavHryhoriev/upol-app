@@ -1,0 +1,24 @@
+@use 'variables';
+
+@mixin form-styling {
+	padding: 1em;
+	background: variables.$color-input-bg;
+	color: variables.$color-input;
+	border: none;
+
+	&:focus {
+		outline: 1px solid variables.$color-bg-secondary;
+	}
+		
+	&::placeholder {
+		color: variables.$color-placeholder;
+	}
+}
+
+@mixin dark-map {
+	filter: grayscale(65%) invert(95%) contrast(85%);
+}
+
+@mixin icon-color {
+	filter: invert(.7);
+}

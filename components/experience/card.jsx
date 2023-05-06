@@ -1,4 +1,4 @@
-import s from "@/styles/experience.module.scss";
+import s from "@/scss/pages/experience.module.scss";
 
 const Card = ({ date, schedule, title, description }) => {
 	const condition = schedule == "Full Time" ? s.schedule : `${s.schedule} ${s.dark}`
